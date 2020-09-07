@@ -3,17 +3,11 @@ first jekyll project, click [here](http://qtx.github.io/jekyll_demo "jekyll_demo
 
  
 
-
-```flow
-
-st=>start: 开始框
-op=>operation: 处理框
-cond=>condition: 判断框(是或否?)
-sub1=>subroutine: 子流程
-io=>inputoutput: 输入输出框
-e=>end: 结束框
-st(right)->op(right)->cond
-cond(yes)->io(bottom)->e
-cond(no)->sub1(right)->op
-
-```
+$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
+\end{vmatrix}
+${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
+$$
